@@ -1,40 +1,71 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playwrite+US+Modern:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&family=Dancing+Script:wght@400..700&display=swap');
+
+:root {
+    --font1: "Open Sans", sans-serif;
+    --font2:"Playwrite US Modern", cursive;
+    --font3:"Dancing Script", cursive;
+    --font4: "Cactus Classical Serif", serif;
+}
+
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
-    background-color: rgb(156, 156, 255);
+    font-family: var(--font4);
+    color: rgba(255, 0, 221, 0.562);
+
+    background-image: url(img/helen.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
 }
 
+
 h1 {
-    margin: 10px;
+    padding: 20px;
+    color: purple;
+    text-align: center;
+    font-size: 3vw;
 }
 
 h2 {
+    margin-top: 80px;
+    width: 100vw;
     text-align: center;
     padding-bottom: 20px;
+    font-size: 50px;
+    color: purple;
 }
 
 p.bot {
     padding-bottom: 20px;
-    
+    text-align: center;
+}
+
+input#ienviar {
+    text-align: center;
 }
 
 article#formulario {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 200px 0 200px;
-    padding: 15px;
+    margin: auto;
+    margin-top: 10vh;
+    width: 30vw;
+    padding: 30px;
     border-radius: 10px;
-    height: 50vh;
-    background-color: whitesmoke;
+    height: 35vh;
 }
 
-section#extra {
-    margin: 50px 0px 0px 0px;
-    background-color: white;
+input.texto {
+    width: 26vw;
+    height: 6vh;
+    border-radius: 20px;
+    border: 1px solid black;
 }
