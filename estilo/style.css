@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(156, 156, 255);
+}
+
+h1 {
+    margin: 10px;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+p.bot {
+    padding-bottom: 20px;
+    
+}
+
+article#formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 200px 0 200px;
+    padding: 15px;
+    border-radius: 10px;
+    height: 50vh;
+    background-color: whitesmoke;
+}
+
+section#extra {
+    margin: 50px 0px 0px 0px;
+    background-color: white;
+}
